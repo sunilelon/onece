@@ -1,0 +1,8 @@
+{
+    "rules": [
+        {
+            "domain": "githubcopilot.com",
+            "domain_suffix": ".githubcopilot.com"
+        }
+    ]
+}

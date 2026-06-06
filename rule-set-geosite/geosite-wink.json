@@ -1,0 +1,14 @@
+{
+    "rules": [
+        {
+            "domain": [
+                "restream-media.net",
+                "wink.ru"
+            ],
+            "domain_suffix": [
+                ".restream-media.net",
+                ".wink.ru"
+            ]
+        }
+    ]
+}
