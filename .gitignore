@@ -1,0 +1,86 @@
+# Ignore everything by default so local-only files are not published accidentally.
+*
+
+# Keep directories visible to Git so allowlist rules below can match nested files.
+!*/
+
+# Keep repository metadata and documentation public.
+!.gitignore
+!README.md
+!LICENSE
+
+# Public proxy/rule artifacts intended for raw.githubusercontent.com downloads.
+# Add new public file types here only after confirming they are safe to expose.
+!*.srs
+!*.dat
+!*.list
+!*.txt
+!*.conf
+!*.yaml
+!*.yml
+!*.json
+
+# Public artifact directories. Files inside these directories may be served directly.
+!public/**
+!rules/**
+!rule-set/**
+!rule-set-*/**
+
+# Never publish local configuration, credentials, or secret-looking files.
+# These deny rules intentionally come after public allowlists so they always win.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.private.json
+*secret*
+*password*
+config.json
+
+# Do not publish IDE or editor state.
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Do not publish local environment files or secrets.
+*.p12
+*.pfx
+*.crt
+*.csr
+*.token
+*.secret
+secrets/
+private/
+
+# Do not publish dependency, build, cache, or temporary output.
+node_modules/
+dist/
+build/
+out/
+target/
+.cache/
+.tmp/
+tmp/
+temp/
+*.log
+*.pid
+.DS_Store
+Thumbs.db
+
+# Do not publish packaged archives or binary dumps unless explicitly allowlisted above.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.bak
+*.backup
+*.dump
+*.db
+*.sqlite
+*.sqlite3
