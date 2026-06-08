@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "rules": [
         {
             "domain": [
@@ -542,6 +543,7 @@
                 "swscan.apple.com",
                 "sylvan.apple.com",
                 "sync.itunes.apple.com",
+                "todesk.com",
                 "tac.googleapis.com",
                 "tesla-cdn.thron.cn",
                 "test.gbugs-qa.chromium.org",
