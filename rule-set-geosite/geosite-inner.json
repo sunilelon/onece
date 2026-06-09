@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "openai.com", "chatgpt.com", "oaiusercontent.com", "oaistatic.com", "ai.com",
+        "openaiapi-site.azureedge.net", "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+        "openaicomproductionae4b.blob.core.windows.net", "production-openaicom-storage.azureedge.net",
+        "arkoselabs.com", "openai-api.arkoselabs.com", "auth0.com", "statsigapi.net",
+        "identrust.com", "intercom.io", "intercomcdn.com", "featuregates.org", "sentry.io",
+        "algolia.net", "api.statsig.com", "events.statsigapi.net", "launchdarkly.com",
+        "observeit.net", "segment.io", "stripe.com"
+      ],
+      "domain": [
+        "chat.openai.com.cdn.cloudflare.net", "static.cloudflareinsights.com",
+        "browser-intake-datadoghq.com"
+      ]
+    },
+    {
+      "domain_keyword": ["openai", "claude"]
+    },
+    {
+      "domain_suffix": [
+        "claude.ai", "claude.com", "anthropic.com", "usefathom.com", "claudestatic.com"
+      ],
+      "domain": ["servicedeclic.com", "cdn.usefathom.com"]
+    },
+    {
+      "domain_suffix": [
+        "ai.google", "ai.google.dev", "aistudio.google.com", "bard.google.com",
+        "gemini.google.com", "generativeai.google", "generativelanguage.googleapis.com",
+        "proactivebackend-pa.googleapis.com", "deepmind.com", "deepmind.google",
+        "googleapis.com", "googleusercontent.com", "assistants.google",
+        "googletagmanager.com", "colab.research.google.com", "makersuite.google.com"
+      ],
+      "domain": [
+        "alkalimakersuite-pa.clients6.google.com", "alkalicw-pa.googleapis.com"
+      ],
+      "domain_keyword": ["generativelanguage", "colab", "developerprofiles"]
+    },
+    {
+      "domain_suffix": [
+        "perplexity.ai", "poe.com", "quora.com", "grok.com", "x.ai", "meta.ai",
+        "character.ai", "huggingface.co", "hf.co", "replicate.com",
+        "midjourney.com", "runwayml.com", "elevenlabs.io", "notebooklm.google.com", "b.ai",
+        "discord.gg", "discord.com", "discordapp.com", "discordapp.net", "livekit.cloud"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ping0.cc",
+        "2ip.io",
+        "ipadress.my",
+        "ipipseek.com",
+        "ip.me"
+      ]
+    }
+  ]
+}
